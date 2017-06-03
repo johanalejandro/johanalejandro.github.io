@@ -1,0 +1,92 @@
+* {
+
+	font-family: verdana;
+	background-color: #F0FFFF; 
+
+}
+
+body{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+
+} 
+
+header h1 {
+	font-family: 'Anton', sans-serif;
+	color:  #414239;
+	font-size: 4em;
+
+	margin: 10px 
+}
+h2#titulo {
+	font-family: 'Lobster', cursive;
+	color:  #9e0947;
+	font-size: 2,5em;
+}
+
+div#decripcion p:first-child  { 
+    background-color: #ce105c ;
+    font-size: 1em;
+}
+
+ul li[actor="principal"]{
+	font-weight: bold;
+}
+
+ul li[actor="secundario"]{
+	font-style: italic;
+}
+
+div#movie {
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #d7d8cb;
+	height: 350px;
+	margin-bottom: 10px;
+	margin: 10px;
+	position: relative;
+
+}
+
+div#imagen{
+	display: inline-block;
+	float: left;
+	padding-right: 10px;
+	margin-top: 5em;
+	left:10px;
+}
+
+div#descripcion {
+	width: 360px;
+	height: 100px
+	padding: 10px;
+	left:550px;
+	display: inline-block;
+	text-align: justify;
+
+}
+
+
+div#reparto {
+	width: 360px;
+/*	margin: 10px; */
+	left: 820px;
+	display: inline-block;
+}
+
+div#trailer{
+	left:820px;
+	display: inline-block;
+	margin-top: 3em;
+	position: absolute;
+}
+
+div h3 {
+	color: #ce105c;
+
+}
+
+
+
