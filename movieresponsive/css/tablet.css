@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+@media only screen 
+and (max-width : 820px)
+and (min-width : 480px){
+	[class*="col-"] {
+		
+	}
+
+	body{
+		width: 100%;
+	}
+
+	header h1{
+		text-align: center;
+	}
+
+	 div#descripcion p {
+	 	display: none;
+	 }
+	 div#imagen {
+		display: none;
+
+	 }
+
+
+	 div#descripcion h3 {
+	 	display: none;
+	 }
+
+	 div#movie {
+	 	position: static;
+		display: inline-flex;
+		flex-direction: column;
+		width: 46.5%;
+		height: 360px;
+		padding: 0px;
+		margin: 0px 10px 20px 0px;
+		
+	 }
+
+	 div#trailer  {
+	 	position: static;
+	 	width: 300px;
+	 	order:1;
+	 	padding-left: 30px;
+	 	border-top: -5em;
+	 }
+	 div#reparto h3{
+
+		display: inline;
+		padding: 0px;
+		margin:0px;
+		font-size: 15px;
+	}
+
+	div#reparto{
+		order:2;
+		position: static;
+		width: 100%;
+	}
+
+
+	 ul{
+		margin:0px;
+		padding: 0px;
+		display: inline;
+	}
+	ul li::after{
+		content: ",";
+	}
+
+
+	ul li{
+		display: inline;
+		font-size: 10px;
+		list-style: none;
+		
+	}
+
+	
+
+}
