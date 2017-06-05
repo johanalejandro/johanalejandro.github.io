@@ -35,13 +35,15 @@
 	}
 
 	#info-foto{
+		margin-top: 50px;
 		position: relative;
-		height: 90px;
+		height: 100px;
 	}
 
 	#box-educacion img {
 		position: relative;
 		height: 90px; 
+		width: 60%;
 
 	}
 
@@ -62,12 +64,12 @@
 		font-size: 70%;
 		width: 44%;
 		left: 28%;
-		bottom: 30%;
+		bottom: 35%;
 		z-index: 2;
 		border: 1px solid;
 		border-radius: 5px;
 		background-color: rgba(225,225,225,0.6);
-		padding: 5px;
+		padding: 7px;
 		text-align: center;
 	}
 
