@@ -26,10 +26,6 @@ h2#titulo {
 	font-size: 2,5em;
 }
 
-div#decripcion p:first-child  { 
-    background-color: #ce105c ;
-    font-size: 1em;
-}
 
 ul li[actor="principal"]{
 	font-weight: bold;
@@ -42,7 +38,7 @@ ul li[actor="secundario"]{
 div#movie {
 	border-style: dotted;
 	border-width: 1px;
-	border-color: #d7d8cb;
+	border-color: black;
 	height: 350px;
 	margin-bottom: 10px;
 	margin: 10px;

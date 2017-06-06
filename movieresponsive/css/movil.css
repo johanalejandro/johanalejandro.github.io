@@ -7,10 +7,17 @@
 @media only screen and (max-width : 480px) {
 
 
+
+	body {
+		width: 100%;
+
+
+	}
 	div#trailer  {
 		display: none;
 
 	}
+	
 	
 
 	div#movie {
@@ -41,7 +48,7 @@
 	div:first-child div#imagen{
 		position: static;
 		display: inline-block;
-		width: 30%;
+		width: 20%;
 		margin: 0px;
 		padding: 0px;
 	}
@@ -50,13 +57,34 @@
 		position: static;
 		display: inline-block;
 		width: 58%;
+		float: right;
 		vertical-align: top;
-		font-size: 80%;
+		font-size: 70%;
 	}
 
 	div#descripcion{
 		display: none;
 	}
+
+	div#imagen {
+		width: 20%;
+		
+
+	}
+
+	div#reparto{
+		display: inline;
+		position: static;
+		width: 100%;
+
+	}
+	div#reparto h3{
+		display: inline;
+		padding: 0px;
+		margin:0px;
+		font-size: 90%;
+	}
+
 
 	
 
@@ -78,18 +106,5 @@
 		order:2;
 		
 	}
-
-	div#reparto h3{
-		display: inline;
-		padding: 0px;
-		margin:0px;
-		font-size: 90%;
-	}
-
-	div#reparto{
-		position: static;
-		width: 100%;
-	}
-	
 
 }
