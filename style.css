@@ -2,22 +2,24 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 
-	background-image: url('wood-wallpaper-4.jpg');
+	background-image: url('wood.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
-h1  {
-	font-family: 'Lobster', cursive;
+h3  {
+	margin-top: 10px;
+	font-family: 'Lobster';
 	color: #F8F8FF;
-	font-size: 5em;
+	font-size: 3em;
 	text-align: center;
 }
 
-h2{
+h4{
+	margin-top: 10px;
 	font-family: 'Lobster', cursive;
 	color: #F8F8FF;
-	font-size: 4em;
+	font-size: 2em;
 	text-align: center;
 }
 
@@ -28,4 +30,30 @@ div#links {
 	text-align: center;
 }
 
+#encabezado-links{
+	width: 75%;
+	height: 700px;
+	position: relative;
+	margin-left:12%;
+	margin-right:  auto;
+	border-style: solid;
+	border-radius: 20px;
+	display: inline-block;
+	background-color: black;
+	border-color: #edc163;
+}
 
+#encabezado-links a {
+	display: inline-block;
+	padding-left: 20%;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+a:link{
+	color: green;
+}
+a:hover{
+	color: #edc163;
+	text-decoration: none;
+}
