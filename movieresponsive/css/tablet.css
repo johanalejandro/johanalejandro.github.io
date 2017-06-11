@@ -22,7 +22,7 @@ and (min-width : 480px){
 		text-align: center;
 	}
 
-	 div#descripcion p {
+	 div#descripcion p  {
 	 	display: none;
 	 }
 	 div#imagen {
@@ -40,10 +40,15 @@ and (min-width : 480px){
 		display: inline-flex;
 		flex-direction: column;
 		width: 46.5%;
-		height: 360px;
+		height: 380px;
 		padding: 0px;
-		margin: 0px 10px 20px 0px;
+		margin: 3px 15px 20px 3px;
 		
+	 }
+
+	 div h2 {
+
+	 	text-align: center;
 	 }
 
 	 div#trailer  {
@@ -51,8 +56,8 @@ and (min-width : 480px){
 	 	width: 300px;
 	 	order:1;
 	 	padding-left: 30px;
-	 	border-top: -5em;
-	 }
+		margin-top: 20px; 	
+     }
 	 div#reparto h3{
 
 		display: inline;
@@ -64,6 +69,7 @@ and (min-width : 480px){
 	div#reparto{
 		order:2;
 		position: static;
+		margin-top: 20px;
 		width: 100%;
 	}
 
@@ -72,6 +78,7 @@ and (min-width : 480px){
 		margin:0px;
 		padding: 0px;
 		display: inline;
+		padding-left: 15px;
 	}
 	ul li::after{
 		content: ",";
@@ -80,8 +87,9 @@ and (min-width : 480px){
 
 	ul li{
 		display: inline;
-		font-size: 10px;
-		list-style: none;
+		font-size: 12px;
+		order:1;
+	 	
 		
 	}
 

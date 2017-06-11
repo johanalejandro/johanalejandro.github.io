@@ -1,0 +1,153 @@
+body {
+	background-image: url("../img/wallpaper.png"); 
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-color:#DEDEDE;
+	z-index: 2;
+
+
+	
+	
+}
+
+
+
+
+
+
+#titulo-sitio {
+	margin-top: 0%;
+	font-size: 4em;
+	color:#d39a0a;
+}
+
+#resumenes-recetas {
+	margin-left: 50px;
+}
+
+
+
+.resumen {
+	width: 170px;
+	position: relative;
+	margin-left:10px;
+	margin-right: 10px;
+	border-style: solid;
+	border-radius: 20px;
+	display: inline-block;
+	margin-bottom: 30px;
+	background-color: #FFFDD6;
+	border-color: #edc163;
+
+
+
+}
+
+.resumen img {
+	width: 55%;
+	height: 50%;
+	margin-left: 40px;
+}
+
+.resumen h4 {
+	text-align: center;
+}
+
+.categoria {
+	font-family: verdana;
+	font-style: bold;
+	text-align: center;
+}
+
+hr {
+	border-color: black;
+
+}
+a:link{
+	color: #db990a;
+}
+a:hover{
+	color: #edc163;
+	text-decoration: none;
+}
+a:visited{
+	color: #7c652e;
+}
+
+
+.linea-detalle {
+	border-color: #e0d2b1
+	border-top:1px dotted
+}
+.text-descripcion {
+	padding-top: 2px;
+	text-align: center;
+	font-style: italic;
+}
+
+#imagen-empanada {
+	width: 150px;
+	height: 121px;
+	margin-left: 13px;
+}
+
+#imagen-menestra {
+	width: 140px;
+	height: 103px;
+	margin-left: 13px;
+}
+
+#imagen-caldo {
+	width: 150px;
+	height: 121px;
+	margin-left: 13px;
+}
+
+#imagen-postre {
+	width: 150px;
+	height: 121px;
+	margin-left: 13px;
+
+}
+
+#detalles-recetas {
+	width: 100%;
+	
+}
+
+.imagen-detalle-audio hr {
+	color:#e0d2b1;
+
+}
+
+#detalles-recetas img {
+	float:left;
+	width: 130px;
+	height:120px;
+	margin-left: 20px;
+	margin-right:30px;
+	margin-top: 20px;
+	 
+}
+
+
+.imagen-detalle-audio {
+	width: 85%;
+	height: 850%;
+	margin-left: 30px;
+	padding-top: 20px;
+	border-style: solid;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	background-color: #FFFDD6;
+	border-color: #edc163; 
+}
+
+.detalle-plato {
+	width: 100%;
+}
+
