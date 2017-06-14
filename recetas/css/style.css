@@ -109,7 +109,7 @@ a:visited{
 
 #imagen-postre {
 	width: 150px;
-	height: 121px;
+	height: 101px;
 	margin-left: 13px;
 
 }
@@ -134,6 +134,12 @@ a:visited{
 	 
 }
 
+.imagen-detalle-audio h4 {
+	color: #D2691E;
+	font-family: 'Sofia';
+
+}
+
 
 .imagen-detalle-audio {
 	width: 85%;
@@ -147,7 +153,6 @@ a:visited{
 	border-color: #edc163; 
 }
 
-.detalle-plato {
-	width: 100%;
-}
+
+
 

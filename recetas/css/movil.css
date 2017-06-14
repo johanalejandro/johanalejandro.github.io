@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+@media only screen and (max-width : 480px) {
+
+
+
+	body {
+		width: 100%;
+
+	}
+
+	.resumen {
+		background-image: url("../img/movil.png"); 
+		background-size: 100%;
+		background-repeat: no-repeat;
+		position: relative;
+		display: inline-flex;
+		width: 100%;
+		height: 180px;
+		flex-direction: column;
+		padding: 0px;
+		margin-left:20px;
+		margin-right: auto;
+	}
+	
+
+	.text-descripcion {
+		display: none;
+
+	}
+
+	#imagen-empanada {
+		display: none;
+	}
+
+	.resumenes-recetas hr{
+		display: none;
+
+	}
+
+	.resumen img {
+		display: none;
+	}
+
+	a {
+		float:left;
+		margin-left: 10px;
+		font-size:2em;
+		font-style: bold;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+
+	a:link{
+		color:#D2691E;
+		font-family: 'Sofia';
+		font-size: 30px;
+	}
+	a:hover{
+		color: #D2691E;
+		font-family: 'Sofia';
+		font-size: 30px;
+	}
+	a:visited{
+		color: #D2691E;
+		font-family: 'Sofia';
+		font-size: 30px;
+	}
+
+	.categoria {
+		margin-left: 290px;
+		padding-top: 20px;
+		font-family: 'Allan';font-size: 32px;
+	}
+
+	.detalle-plato {
+		display: none;
+
+
+	}
+	.imagen-detalle-audio {
+		width: 220px;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+		padding-left: 12px;
+		margin-bottom: 12px;
+	}
+
+	#detalles-recetas h4 {
+		order:1;
+		margin-top: 80px;
+	}
+
+	#detalles-recetas img  {
+		width: 180px;
+		order:2;
+		margin-right: 20px;
+		margin-left: 10px;
+	}
+	
+	#detalles-recetas hr{
+		display: none;
+	}
+
+	.imagen-detalle-audio audio  {
+		width: 180px;
+		order:3;
+	}
+
+
+
+
+}

@@ -18,12 +18,15 @@
 
 	}
 	
+	div#descripcion{
+		display: none;
+	}
 	
 
 	div#movie {
 	 	position: relative;
 		display: inline-flex;
-		width: 46.5%;
+		width: 40%;
 		flex-direction: column;
 		padding: 0px;
 		margin: 0px 10px 20px 0px;
@@ -33,12 +36,14 @@
 	 	display: none;
 	 }
 
+
+
 	 section div:first-child {
-		width: 100% !important;
+		width: 470px !important;
 		border:none;
 		position: static;
 		border-bottom: 2px dotted !important;
-		height: 280px !important;
+		height: 300px !important;
 	}
 
 	div:first-child div#reparto {
@@ -46,32 +51,28 @@
 	}
 
 	div:first-child div#imagen{
-		position: relative;
 		display: inline-block;
-		width: 20% !important ; 
+		width: 10% !important ; 
 		margin: 0px;
 		padding: 0px;
+		float: left;
+		margin-top: 40px;
+		margin-left: 30px;
 	}
 
 	div:first-child div#descripcion {
 		position: static;
+		margin-left: 100px;
+		margin-bottom: 400px;
 		display: inline-block;
-		width: 58%;
+		width: 30%;
 		float: right; 
-		vertical-align: top;
 		font-size: 70%;
 	}
 
-	div#descripcion{
-		display: none;
-	}
+	
 
-	div#imagen {
-		width: 20%;
-		order:1;
-		
-
-	}
+	
 
 	div#reparto{
 		display: inline;
@@ -107,6 +108,11 @@
 		list-style: none;
 		order:2;
 		
+	}
+
+	div#imagen {
+		width: 80px;
+		height: 60px;
 	}
 
 	
