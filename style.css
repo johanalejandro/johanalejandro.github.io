@@ -51,9 +51,9 @@ div#links {
 }
 
 a:link{
-	color: green;
+	color: white;
 }
 a:hover{
-	color: #edc163;
+	color: white;
 	text-decoration: none;
 }
