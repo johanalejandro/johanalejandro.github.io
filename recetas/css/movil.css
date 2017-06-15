@@ -19,12 +19,12 @@
 		background-repeat: no-repeat;
 		position: relative;
 		display: inline-flex;
-		width: 100%;
+		width: 450px;
 		height: 180px;
 		flex-direction: column;
 		padding: 0px;
-		margin-left:20px;
-		margin-right: auto;
+		margin-left:0px;
+		margin-right: 0px;
 	}
 	
 
@@ -72,8 +72,8 @@
 	}
 
 	.categoria {
-		margin-left: 290px;
-		padding-top: 20px;
+		margin-left: 300px;
+		padding-top: 15px;
 		font-family: 'Allan';font-size: 32px;
 	}
 
@@ -83,7 +83,7 @@
 
 	}
 	.imagen-detalle-audio {
-		width: 220px;
+		width: 230px;
 		margin-left: auto;
 		margin-right: auto;
 		display: inline-block;
@@ -93,7 +93,7 @@
 
 	#detalles-recetas h4 {
 		order:1;
-		margin-top: 80px;
+		margin-top: 160px;
 	}
 
 	#detalles-recetas img  {

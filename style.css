@@ -48,12 +48,20 @@ div#links {
 	padding-left: 20%;
 	font-size: 2em;
 	margin-bottom: 10px;
+	
 }
 
+
+
 a:link{
-	color: white;
+	color: #edc163;
 }
 a:hover{
 	color: white;
 	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none
 }

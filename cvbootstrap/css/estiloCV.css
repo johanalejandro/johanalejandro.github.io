@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+
+header h1 {
+	text-align: center;
+}
+
+
+div#box-info img{
+	
+	float: left;
+	padding-right: 10px;
+	display: block;
+	vertical-align: middle;
+}
+
+div[id^="box"]  {
+	display: block;
+	border-width: : 1pt;
+	border-style: solid;
+	border-color: #cbccc1;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom:10px; 
+	width: 40%;
+	padding: 20px; 
+	
+}
+
+div p#periodo {
+	font-style: italic;
+
+
+}
+
+div#box-educacion img{
+	
+	float: left;
+	padding-right: 10px;
+	display: block;
+	vertical-align: middle;
+}
+
+div p {
+	line-height: 25px;
+	margin: 0px;
+	margin-left: 25px;
+}
+/*
+div#box-info p
+	
+{
+	float: right;
+	text-align: center;
+	
+*/
+div#habilidad{
+	width: 100px;
+	border-radius: 70px;
+	margin: 10px;
+	font-weight: bold;
+	box-shadow: 2px 2px 7px grey;
+	float: left;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 120px;
+	background: #cecece;
+	
+}
+
+div#habilidad span{ 
+	display: inline-block;
+	color: white;
+	border-radius: 60px;
+	background: #241872 ;
+	padding: 10px;
+}
+
+div#box-habilidades {
+	display: block; ;
+	border-width: : 1pt;
+	border-style: solid;
+	border-color: #cbccc1;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom:10px; 
+	height: 14em;
+	width: 40%;
+	padding: 20px; 
+
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+body {
+  h1{
+  	color: red;
+ }
+}
+
+
+
+
